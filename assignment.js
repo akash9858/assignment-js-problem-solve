@@ -14,7 +14,7 @@ function kilometerToMeter(kilometer) {
 
 function budgetCalculator(watch,phone,laptop){
     var result = (watch*50)+(phone*100)+(laptop*500);
-    return (result);
+    return (price);
 }
 
 
