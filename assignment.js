@@ -38,17 +38,15 @@ function hotelCost(day){
 
 //megaFriend: longest word query from the array. number 4
 
-var friends = ['jhankarMahbub','Habib','Shamim','Fahim','Alamin','Abadullah'];
-
-function megaFriend(arr){
-    var length = 0;
-    var longestWord;
-    for(var i =0; i<arr.length; i++){
-        if(arr[i].length > length){
-            length = arr[i].length;
-            longestWord = arr[i];
+function megaFriend(names){
+    var maxword = names[0];
+   
+        for( var i = 0; i < names.length; i++){
+        var element = names[i];
+        if(element.length > maxword.length){
+        maxword =element;
         }
+      }
+       return maxword;
     }
-    return longestWord;
-
-}
+   
