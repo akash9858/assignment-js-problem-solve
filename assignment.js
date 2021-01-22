@@ -13,7 +13,7 @@ function kilometerToMeter(kilometer) {
 //budgetCalculator 3 product price sum.  number 2
 
 function budgetCalculator(watch,phone,laptop){
-    var result = (watch*50)+(phone*100)+(laptop*500);
+    var price = (watch*50)+(phone*100)+(laptop*500);
     return (price);
 }
 
