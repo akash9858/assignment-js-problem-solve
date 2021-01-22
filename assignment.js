@@ -49,4 +49,4 @@ function megaFriend(names){
       }
        return maxword;
     }
-   
+   var a=megaFriend(["shamim","akash","fahim","sazidul"]);
