@@ -36,7 +36,7 @@ function hotelCost(day){
 }
 
 
-//megaFriend: longest word query from the array. number 4
+//megaFriend longest word query from the array. number 4
 
 function megaFriend(names){
     var maxword = names[0];
