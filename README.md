@@ -1,1 +1,1 @@
-# assignment-js-problem-solve
+js-problem-solve
